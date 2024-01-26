@@ -15,7 +15,7 @@ npm install --save input_custom
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'input_custom'
+import { Input as Input } from 'input_custom'
 import 'input_custom/dist/index.css'
 
 class Example extends Component {

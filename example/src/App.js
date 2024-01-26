@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'input_custom'
+import { Input } from 'input_custom'
 import 'input_custom/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <Input
+      type='select'
+      name='firstName'
+      id='firstName'
+      label='First Name'
+      required='required'
+    />
+  )
 }
 
 export default App
