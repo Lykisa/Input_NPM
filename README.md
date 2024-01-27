@@ -4,13 +4,17 @@
 
 [![NPM](https://img.shields.io/npm/v/input_custom.svg)](https://www.npmjs.com/package/input_custom) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
+## Installation
+
+You can install the component by using:
 
 ```bash
 npm install --save input_custom
 ```
 
 ## Usage
+
+Open your React project and go to the file requiring the input component and import the input
 
 ```jsx
 import React, { Component } from 'react'
@@ -23,6 +27,24 @@ class Example extends Component {
     return <MyComponent />
   }
 }
+```
+
+## How to use it
+
+Once your import is complete, set up your props as needed, for example :
+
+```jsx
+<Fragment>
+  <label>{label}</label>
+  <input
+    id={id}
+    type={type}
+    name={name}
+    label={label}
+    value={options}
+    required={required}
+  />
+</Fragment>
 ```
 
 ## License
