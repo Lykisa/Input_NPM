@@ -24,7 +24,7 @@ import 'input_custom/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Input />
   }
 }
 ```
